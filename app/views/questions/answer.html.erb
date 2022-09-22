@@ -1,0 +1,14 @@
+<div class="container my-0 mx-0">
+  <h1>Here is your coach's answer</h1>
+
+  <div class="question">
+    <h5 class= "mx-2"><%= @question.capitalize %> </h5>
+    <h6 class="font-italic mx-2">--You</h6>
+  </div>
+
+  <div class="answer">
+    <h5 class="mx-2"><%= @answer %></h5>
+    <h6 class="font-italic mx-2">--Coach</h6>
+  </div>
+<%= link_to "Ask another question", ask_path, class:"btn btn-primary back-button btn-lg" %>
+</div>
